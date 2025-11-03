@@ -17,11 +17,11 @@ This repository uses existing literature dataset compilations of apatite and zir
 * "Zircon_Fertility_Data-main/Test_Nathwani2024.csv"
   * Nathwani et al., 2024 (https://doi.org/10.1038/s41467-024-52786-5) ;* 
 
-UMAP-TE version 1 (main branch, not available here): 
+[UMAP-TE version 1](https://github.com/eblaup/UMAP-TE) (not available here): 
 * "V3_zirconfertility" contains the script, data, and UMAP model used to project zircon geochemistry using Eu/Eu*, λ3, P, Dy/Yb, λ2, Ce/Nd, Eu, Tb, Gd, and Gd/Yb.
 * "v3_zircongeochemistry" contains the script, data, and UMAP model used to project zircon geochemistry using P, Ce, Eu, Th, La, Pr, Y, Nd, Gd, Er, Yb, Sm, Dy, and Lu.
 
-UMAP-TE extension (3-Nov-25):
+UMAP-TE extension (forked from version 1, 3-Nov-25):
 * "loadingUMAP_and_plotting_v1.ipynb" can approximate UMAP-TE (version 1) results from "UMAP-TE_version1/UMAP_zircongeochemistry_PCA.ipynb" and "UMAP_zirconfertility_testing_PCA.ipynb"
 * Does not process version 1 "Apatite" and "Yerington folders"
 * Mini-pipeline to produce interactive UMAP plots using Dash.
