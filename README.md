@@ -15,9 +15,9 @@ The Python Jupyter notebooks partly reproduce the figures in the m/s: "Evaluatio
 
 We use existing literature dataset compilations of zircon geochemistry from:
 * "Zircon_Fertility_Data-main/CG2024data_v5.csv"
-  * Carrasco-Godoy et al., 2024 (https://doi.org/10.5382/econgeo.5086) ;   
+  * Carrasco-Godoy et al., 2024 (https://doi.org/10.5382/econgeo.5086);   
 * "Zircon_Fertility_Data-main/Test_Nathwani2024.csv"
-  * Nathwani et al., 2024 (https://doi.org/10.1038/s41467-024-52786-5) ;* 
+  * Nathwani et al., 2024 (https://doi.org/10.1038/s41467-024-52786-5);
 
 [UMAP-TE version 1](https://github.com/eblaup/UMAP-TE) (not available here): 
 * "V3_zirconfertility" contains the script, data, and UMAP model used to project zircon geochemistry using Eu/Eu*, λ3, P, Dy/Yb, λ2, Ce/Nd, Eu, Tb, Gd, and Gd/Yb.
@@ -57,5 +57,5 @@ A cool next step would be implementing plots for seeing multi-class supervised l
   <img src="https://github.com/user-attachments/assets/ca838fca-fe02-4bf7-b653-f69f0806b53e" width=35% height=35%>
 </p>
 
-Thanks
+Thanks  
 Marco
