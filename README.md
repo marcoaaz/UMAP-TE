@@ -2,7 +2,7 @@
 
 The Uniform Manifold Approximation and Projection - Trace elements (UMAP-TE) software tool can be used to study zircon chemical analysis. This extension is a functional programming version of version 1 (see [UMAP-TE](https://github.com/eblaup/UMAP-TE)). The repository can be used as a software tool to study the geochemistry of any mineral tabulated data and reduce the dimensionality with UMAP to better understand the intrinsic relationships within a big dataset. Note that any input data will be more useful if it has been curated and well-characterised (manually classified, filtered for outliers).
 
-UMAP-TE extension allows to configure a mini-pipeline to produce interactive UMAP plots to the increase the analysis reliability:
+UMAP-TE extension allows to configure a mini-pipeline to produce interactive UMAP plots that increase the geological assessment reliability:
 
 <p float="left" align="middle">
   <img src="https://github.com/user-attachments/assets/14d0e597-6b58-432f-935d-43e5daaaf107" width=75% height=75%>
@@ -42,13 +42,13 @@ The section 'Geochemical calculations' (in "loadingUMAP_and_plotting_v1.ipynb" a
 ### Interactive UMAP
 
 The interactive UMAP mini-pipeline requires running:
-1. "merge_Carrasco_db_v2.m" to fuse the original "Zircon Fertility Data.csv" and "External Validation.csv" tables.
+1. "merge_Carrasco_db_v2.m" to fuse the original "Zircon Fertility Data.csv" and "External Validation.csv" tables ([Carrasco-Godoy et al., 2024](https://doi.org/10.5382/econgeo.5086)).
 2. "UMAP_grid_search_v3.ipynb" to run UMAP multiple times on your dataset.
-3. "interactive_UMAP_v1.ipynb" to generate the interactive UMAP plot in the web-browser. 
+3. "interactive_UMAP_v1.ipynb" to generate the interactive UMAP plot in your web-browser. 
 
 ## Future updates
 
-I could provide future custom functionality to this repository (see 'main_functions.py') based on user feedback. Contact maaz.geologia@gmail.com for bugs and/or pull requests.
+I could provide future custom functionality to this repository (see 'main_functions.py') based on user feedback. Contact maaz.geologia@gmail.com for installation issues, bugs and/or pull requests.
 
 A cool next step would be implementing plots for seeing multi-class supervised learning boundaries (not only binary as below barren/fertile) on the 3D UMAP or PCA space:
 
