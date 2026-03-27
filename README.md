@@ -1,17 +1,19 @@
 # **UMAP-TE (extension)**
 
-The Uniform Manifold Approximation and Projection - Trace elements (UMAP-TE) software tool can be used to study zircon chemical analysis. This extension is a functional programming version of version 1 (see [UMAP-TE](https://github.com/eblaup/UMAP-TE)). The repository can be used to study the geochemistry of any mineral tabulated data and reduce the dimensionality with UMAP to better understand the intrinsic relationships within a big dataset. Note that any input data will be more useful if it has been curated and well-characterised (manually classified, filtered for outliers).
+The UMAP-TE (Uniform Manifold Approximation and Projection - Trace elements) software tool can be used to study zircon chemical analysis. This extension is a functional programming version of version 1 (see [UMAP-TE](https://github.com/eblaup/UMAP-TE)). 
 
-UMAP-TE extension allows to configure a mini-pipeline to produce interactive UMAP plots that increase the geological assessment reliability:
+The repository can be used to study the geochemistry of any mineral tabulated data and reduce the dimensionality with UMAP to better understand the intrinsic relationships within a big dataset. Note that any input data will be more useful if it has been curated and well-characterised (manually classified, filtered for outliers). The UMAP-TE extension allows to configure a mini-pipeline to produce interactive UMAP plots that increase the geological assessment reliability:
 
 <p float="left" align="middle">
   <img src="https://github.com/user-attachments/assets/14d0e597-6b58-432f-935d-43e5daaaf107" width=75% height=75%>
   <img src="https://github.com/user-attachments/assets/797d75a5-5a4c-474c-9cbb-dd8b90b3ac27" width=75% height=75%>
 </p>
 
-Citation if trying to use any version of UMAP-TE: [Laupland et al. (2026)](https://doi.org/10.1016/j.chemgeo.2026.123323). "Evaluation of uniform manifold approximation and projection for dimensionality reduction of large geochemical datasets relevant to magmatic ore-fertility, petrologic classification, and provenance." 
+Please, do not forget to cite this work if trying to use any version of UMAP-TE to support further developments.
 
-The Python Jupyter notebooks partly reproduce the figures 
+**Citation**: [Laupland et al. (2026)](https://doi.org/10.1016/j.chemgeo.2026.123323) 
+
+**Title**: "Evaluation of uniform manifold approximation and projection for dimensionality reduction of large geochemical datasets relevant to magmatic ore-fertility, petrologic classification, and provenance." The Python Jupyter notebooks in this repository partly reproduce the figures.
 
 
 ## Contents
